@@ -20,3 +20,8 @@ The `refmt` function will output styled ReasonML or OCaml source code. The only 
 Specify `'RE'` for Reason, or `'ML'` for OCaml input. `sourceType` specifies the source code type,
 either `'implementation'` or `'interface'`, defaults to implementation. `targetLang` specifies the
 output language, `'RE'` for Reason, or `'ML'` for OCaml, defaults to Reason.
+
+## Source Maps
+
+The distibution also includes a sourcemap for the compiled JS. To enable Node to use the provided source
+map, please use [`source-map-support`](https://github.com/evanw/node-source-map-support).
