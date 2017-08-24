@@ -1,2 +1,22 @@
 # refmt-js
+
 refmt packaged as a JS library
+
+## Usage
+
+```js
+const refmt = require('refmt')
+
+const myReasonMLCode = fs.readFileSync('file.re')
+const formattedCode = refmt(myReasonMLCode)
+```
+
+## API
+
+#### `refmt(source: string, sourceLang: string?, sourceType: string?, targetLang: string?): string`
+
+The `refmt` function will output styled ReasonML or OCaml source code. The only required param is
+`source`, the input source code. `sourceLang` specifies the input language, defaulted to Reason.
+Specify `'RE'` for Reason, or `'ML'` for OCaml input. `sourceType` specifies the source code type,
+either `'implementation'` or `'interface'`, defaults to implementation. `targetLang` specifies the
+output language, `'RE'` for Reason, or `'ML'` for OCaml, defaults to Reason.

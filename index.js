@@ -2,16 +2,11 @@ const Refmt = require('./refmt')
 
 function refmt(
   src,
-  sourceFormatting = 'RE',
+  sourceLang = 'RE',
   sourceType = 'implementation',
-  targetFormatting = 'RE'
+  targetLang = 'RE'
 ) {
-  const [, result] = Refmt.refmt(
-    src,
-    sourceFormatting,
-    sourceType,
-    targetFormatting
-  )
+  const [, result] = Refmt.refmt(src, sourceLang, sourceType, targetLang)
 
   return result
 }
