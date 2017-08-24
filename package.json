@@ -1,6 +1,6 @@
 {
   "name": "refmt",
-  "version": "1.13.6",
+  "version": "1.13.7",
   "description": "refmt packaged as a JS library",
   "main": "index.js",
   "scripts": {
