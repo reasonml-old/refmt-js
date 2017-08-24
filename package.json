@@ -1,0 +1,26 @@
+{
+  "name": "refmt",
+  "version": "1.13.6",
+  "description": "refmt packaged as a JS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reasonml-community/refmt-js.git"
+  },
+  "keywords": ["reason", "reasonml", "refmt"],
+  "author": "",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/reasonml-community/refmt-js/issues"
+  },
+  "homepage": "https://github.com/reasonml-community/refmt-js#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "jest": {
+    "transformIgnorePatterns": ["/node_modules/", "refmt.js"]
+  }
+}
