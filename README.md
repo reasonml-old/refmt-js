@@ -2,6 +2,12 @@
 
 refmt packaged as a JS library
 
+## Installation
+
+```
+npm i refmt
+```
+
 ## Usage
 
 ```js
