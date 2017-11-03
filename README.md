@@ -2,6 +2,8 @@
 
 Reason now comes with a `refmt.js`! See https://github.com/facebook/reason/tree/31f68a2f24cc714d637bc31902993242df5b96a9#installation-for-programmatic-usage
 
+**======================== Old README**
+
 ## Installation
 
 ```
